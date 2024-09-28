@@ -1,0 +1,207 @@
+*{
+    box-sizing:border-box;
+    margin:0%;
+    padding:0%;
+}
+
+.fullcart{
+    height : 100%;
+    width :100%;
+    margin-top : 4%;
+    display:flex;
+    background-color: #e4fdfd;
+}
+.leftcart{
+    height :100%;
+    width :50%;
+    background-color: #e4fdfd; 
+}
+
+.rightcart{
+    height :100%;
+    width :49.9%;
+    position: fixed;
+    margin-left : 50.1%;
+}
+.eachcart{
+    height :185px;
+    width :90%;
+    margin-top :6.5% ;
+    margin-left : 5%;
+    border-radius: 5px;
+    display:flex;
+    justify-content: flex-start;
+   background-color: #0c2327;
+}
+.cartimage {
+    width : 25%;
+	height : 94%;
+    margin-left : 1%;
+margin-top : 1%;
+margin-bottom : 1%;
+margin-top : 1%;
+}
+.cartimage img {
+    width : 100%;
+	height : 100%;
+    object-fit: cover;  
+}
+.cartdetailed{
+    margin-top : 2%;
+    margin-left : 3%;
+}
+.cartcompanyname{
+font-weight: 600;
+cursor: pointer;
+color: #0dd7ff; 
+font-family: "Russo One", sans-serif;
+font-weight: 50;
+}
+.cartproductname{
+    margin-top : 2%;
+    font-weight: 100;
+    cursor: pointer;
+    color:rgb(221, 221, 220);
+}
+.cartprice{
+    margin-top : 2.5%;
+    font-weight: 600;
+    cursor: pointer;
+     margin-left :3px ;
+}
+.cartproductrating{
+    margin-top : 2.2%;
+    font-weight: 550;
+    cursor: pointer;
+}
+.cartdiscount{
+    color: #0dd7ff; 
+    font-weight: 300;
+    cursor: pointer;
+    margin-left :3px ;
+}
+.cartoriginalprice{
+    font-weight: 300;
+    text-decoration: line-through;
+    cursor: pointer;
+    margin-left :3px ;
+    color:rgb(221, 221, 220);
+}
+.cartongoingprice{
+    font-weight: 600;
+    cursor: pointer;
+    color:#c89666;
+}
+
+.cartdate{
+    margin-top : 6%;
+    color:#c89666;
+}
+.delete {
+    width : 30px;
+	height : 30px;
+    margin-left : auto;
+    margin-right :2%;
+    margin-top : 1%;
+}
+.delete i{
+    width : 100%;
+	height : 100%;
+    font-weight: 550;
+    font-size: xx-large;
+    color:rgb(221, 221, 220);
+    
+}
+.days{
+    font-weight: 700;
+    color: #0dd7ff; 
+}
+.date{
+    font-weight: 700;
+    color: #0dd7ff; 
+
+}
+.reach{
+    margin-top : 2%;
+    color:#c89666;
+}
+
+
+
+
+
+.calculation{
+    height :310px;
+    width :330px;
+    margin-left :20% ;
+    margin-top : 15%;
+    border-radius: 6px;
+   border:0.2px solid   #0c2327;
+   background-color: #0c2327;
+}
+.itemsno{
+margin-left :5%;
+margin-top :9%;
+color: rgb(0, 0, 0);
+font-family: "Russo One", sans-serif;
+font-weight: 50;
+color: #0dd7ff; 
+font-size: medium;
+}
+.totalitems{
+    margin-left :5%;
+    margin-top :4%;
+  
+    color:#c89666;
+}
+.totalitems span{
+    margin-left :60%;
+    color:rgb(221, 221, 220);
+}
+.discountcart{
+    margin-left :5%;
+    margin-top :4%;
+    color:#c89666;
+}
+.discountcart span{
+    margin-left :52%;
+   color: #0dd7ff; 
+}
+.tax{
+    margin-left :5%;
+    margin-top :4%;
+    color:#c89666;
+}
+.tax span{
+    margin-left :68%;
+    color:rgb(221, 221, 220);
+}
+.border{
+    width :93%;
+    border:1px solid white; 
+    margin-left :5%;
+    margin-top :6%;
+}
+.totalamount{
+    margin-left :5%;
+    margin-top :5%;
+    font-weight: 700;
+    color:#ebeae8;
+}
+.totalamount span{
+    margin-left :53%;
+    font-weight: 700;
+    color: #0dd7ff; 
+}
+.placeorder{
+    padding-left :32%;
+    padding-top :3.4%;
+    margin-top :8%; 
+    height :46px;
+    width :100%;
+    border-radius: 7px;     
+    font-weight: 700;
+    border:3px solid #ebeae8;;
+    color: #0dd7ff; 
+   
+}

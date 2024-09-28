@@ -1,0 +1,11 @@
+.div1{
+    margin-top :200px;
+    margin-left : 400px; 
+}
+.bar{
+    border:1px solid rgb(255, 255, 255);
+   width :0px;
+    transition: width 0.5s;
+    
+}
+

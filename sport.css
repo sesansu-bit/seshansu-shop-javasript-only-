@@ -1,0 +1,88 @@
+.sportcontainers{
+    width : 105%;
+	height : 100%;
+    display:flex;
+    flex-wrap: wrap;  
+    margin-left : -5%;  
+    margin-top : -4%;  
+}
+.eachonecontainer8{
+    width : 21%;
+	height : 22%;
+    margin-left :3.2%;
+    margin-top : 4.2%;
+}
+.eachonecontainer8:hover{
+    box-shadow: 1px 1px 12px#40adc0,1px 1px 22px #378f9f;
+}
+.eachonecontainer8 img {
+    width : 100%;
+	height : 63%;
+    object-fit: cover;
+    position: relative;
+}
+.productname8{
+    margin-top : 2%;
+    font-weight: 200;
+    cursor: pointer;
+    color:#07a7c3;
+}
+.companyname8{
+    font-weight: 600;
+    cursor: pointer;
+    margin-top : 2%;
+    font-family: "Russo One", sans-serif;
+    font-weight: 200;
+  
+}
+.productrating8{
+    margin-left : 1%;
+    margin-top : -3.5%;
+    font-weight: 550;
+    cursor: pointer;
+    position:absolute;
+    height :22px;
+    width : 105px;
+    background-color: aliceblue;
+    padding-left : 1%;
+    border-radius: 2px;
+}
+.discount8{
+    font-weight: 300;
+    cursor: pointer;
+    margin-left : 3px;
+  font-weight: 550;
+}
+.originalprice8{
+    font-weight: 300;
+    cursor: pointer;
+    margin-left : 3px;
+    text-decoration: line-through;
+    color:rgb(188, 16, 16);
+}
+.ongoingprice8{
+    font-weight: 650;
+    cursor: pointer;
+    
+}
+.price8{
+    margin-top : 2.5%;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.addtocart8{
+    height :36px;
+    width : 170px;
+    margin-top : 3%;
+    border-radius:6px;
+    padding-left :42px;
+    border:1.5px solid #22d0ef;
+    padding-top :7px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.detailed8{
+    margin-top : 1%;
+    margin-left : 3%;
+}
